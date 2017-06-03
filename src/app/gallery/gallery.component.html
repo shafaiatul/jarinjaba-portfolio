@@ -1,0 +1,43 @@
+<div class="row">
+  <nav class="white filter-image">
+    <div class="nav-wrapper">
+      <div class="col s12">
+        <a  class="waves-effect waves-teal btn-flat"
+          [class.active]="filterBy === 'all'"
+          (click)="filterBy = 'all'" >
+          All
+        </a>
+        <a  class="waves-effect waves-teal btn-flat"
+          [class.active]="filterBy === 'flat'"
+          (click)="filterBy = 'flat'">
+          Flat
+        </a>
+        <a  class="waves-effect waves-teal btn-flat"
+          [class.active]="filterBy === 'versatile'"
+          (click)="filterBy = 'versatile'">
+          Versatile
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+<div class="box" >
+  <div *ngFor="let image of (visibleImages | filter:filterBy)">
+    <div class="card">
+      <div class="card-image">
+        <img src="{{image.clientWorkUrl}}">
+        
+        <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+      </div>
+      <div class="card-content">
+          <div class="chip">
+            <img src="{{image.clientImageUrl}}" alt="Contact Person">
+            {{image.clientName}}
+          </div>
+      </div>
+    </div>
+  </div>
+    
+</div>

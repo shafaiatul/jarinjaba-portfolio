@@ -1,0 +1,36 @@
+.filter-image {
+  margin-top: 10px;
+  color: #F44336;
+  margin-left: 10px;
+}
+
+.active {
+  font-weight: bold;
+  background: #F44336 !important;
+  color: #fff!important;  
+}
+
+.box {
+  margin-top: 20px;
+  -moz-column-width: 20em;
+  -webkit-column-width: 20em;
+  -moz-column-gap: 1em;
+  -webkit-column-gap: 1em;
+}
+
+.card {
+  display: inline-block;
+  margin: 0.25rem;
+  padding: 1rem;
+  width: 100%;
+  
+}
+
+
+
+
+
+
+
+
+

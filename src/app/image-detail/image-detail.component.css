@@ -1,0 +1,18 @@
+img.bigger-image {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.back-btn {
+    margin-top: 20px;
+    background: #6d4c41 !important;
+
+}
+
+.client-comment {
+    color: rgba(0,0,0,0.71);
+}
+.client-rating i{
+    color: #F44336;
+
+}

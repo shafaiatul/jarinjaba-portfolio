@@ -8,6 +8,7 @@ import { ImageServiceService } from './../shared/image-service.service';
   styleUrls: ['./gallery.component.css']
 })
 export class GalleryComponent implements OnInit, OnChanges{
+  
   visibleImages: any[] =[];
   @Input() filterBy ?:string = 'all'
   constructor(private imageService: ImageServiceService) { 

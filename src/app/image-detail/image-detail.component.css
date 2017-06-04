@@ -8,7 +8,12 @@ img.bigger-image {
     background: #6d4c41 !important;
 
 }
-
+.card-panel {
+    background: #e7e7e7;
+}
+.clinet-name {
+    font-weight: bold;
+}
 .client-comment {
     color: rgba(0,0,0,0.71);
 }

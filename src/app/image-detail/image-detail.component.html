@@ -18,12 +18,13 @@
         
       </div>
       <div class="card-content">
-        <div class="card-panel grey lighten-5 z-depth-1">
+        <div class="card-panel">
           <div class="row valign-wrapper">
             <div class="col s2">
               <img src="{{image.clientImageUrl}}" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
             </div>
             <div class="col s10">
+              <h6 class="clinet-name">{{image.clientName}}</h6>
               <p class="client-rating"  *ngIf="image.clientComment !== 'Reviews and Comments are missing'">
                   <i class="fa fa-star" aria-hidden="true"></i>&nbsp;
                   <i class="fa fa-star" aria-hidden="true"></i>&nbsp;

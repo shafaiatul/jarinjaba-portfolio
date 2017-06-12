@@ -20,5 +20,5 @@ export class ImageDetailComponent implements OnInit {
       +this.route.snapshot.params['id']
     )
   }
-
+  
 }

@@ -14,13 +14,14 @@ export class ImageServiceService {
 }
 
 const Images = [
+  
   { 
     "id": 1,
     "category": "versatile",
-    "clientName": "shayughul",
-    "clientImageUrl": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/profile/photos/20394026/original/photo.jpg",
-    "clientWorkUrl": "assets/img/versatile/tidy-attire.png",
-    "clientComment": "Outstanding Experience!"
+    "clientName": "willjgriffin",
+    "clientImageUrl": "assets/img/client.png",
+    "clientWorkUrl": "assets/img/versatile/cep2.png",
+    "clientComment": "Exactly what I asked for."
   },
   { 
     "id": 2,
@@ -191,5 +192,29 @@ const Images = [
     "clientImageUrl": "assets/img/client.png",
     "clientWorkUrl": "assets/img/versatile/multiservice.png",
     "clientComment": "good experience"
+  },
+  { 
+    "id": 26,
+    "category": "versatile",
+    "clientName": "willjgriffin",
+    "clientImageUrl": "assets/img/client.png",
+    "clientWorkUrl": "assets/img/versatile/cep1.png",
+    "clientComment": "Exactly what I asked for."
+  },
+  { 
+    "id": 27,
+    "category": "versatile",
+    "clientName": "shayughul",
+    "clientImageUrl": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/profile/photos/20394026/original/photo.jpg",
+    "clientWorkUrl": "assets/img/versatile/tidy-attire.png",
+    "clientComment": "Outstanding Experience!"
+  },
+  { 
+    "id": 28,
+    "category": "versatile",
+    "clientName": "customlife",
+    "clientImageUrl": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/profile/photos/941834/original/22095_378891295539444_2068726645_n.jpg",
+    "clientWorkUrl": "assets/img/versatile/S-C-INC.jpg",
+    "clientComment": "Outstanding Experience!"
   }
 ]

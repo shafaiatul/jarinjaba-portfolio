@@ -11,12 +11,155 @@
 }
 
 .box {
-  margin-top: 20px;
-  -moz-column-width: 20em;
-  -webkit-column-width: 20em;
-  -moz-column-gap: 1em;
-  -webkit-column-gap: 1em;
+  width: 32%;
+  margin: 2px;
+  padding: 5px;
 }
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  .box {
+    width: 98%;
+    margin: 2px;
+    padding: 5px;
+  }
+}
+
+
+
+
+
+
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+  .box {
+    width: 32%;
+    margin: 2px;
+    padding: 5px;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+  .box {
+    width: 22%;
+    margin: 2px;
+    padding: 5px;
+  }
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+  .box {
+    width: 98%;
+    margin: 2px;
+    padding: 5px;
+  }
+  .btn-flat {
+    font-size: 11px;
+    outline: 0;
+  }
+}
+/* iPhone 6 landscape */
+@media only screen and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2)
+{
+  .box {
+    width: 48%;
+    margin: 2px;
+    padding: 5px;
+  }
+
+}
+
+/* iPhone 6 portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2)
+{ 
+   .box {
+    width: 98%;
+    margin: 2px;
+    padding: 5px;
+  }
+  .btn-flat {
+    font-size: 11px;
+    outline: 0;
+  }
+}
+
+/* iPhone 6 Plus landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 3)
+{ 
+  .box {
+    width: 48%;
+    margin: 2px;
+    padding: 5px;
+  }
+}
+
+/* iPhone 6 Plus portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 3)
+{ 
+  .box {
+    width: 98%;
+    margin: 2px;
+    padding: 5px;
+  }
+  .btn-flat {
+    font-size: 11px;
+    outline: 0;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+  .box {
+    width: 48%;
+    margin: 2px;
+    padding: 5px;
+  }
+}
+
+/* Find me in Fiverr button (start) */
+.find-me-in-fiverr {
+  color: #00B22D;
+  background: transparent;
+  border: 2px solid #00b22d;
+  display: inline-block;
+}
+.find-me-in-fiverr > span {
+  padding: 4px 20px;
+}
+.find-me-in-fiverr span:last-child {
+  background: #00B22D;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* Find me in Fiverr button (end) */
+
+
 
 .card {
   display: inline-block;

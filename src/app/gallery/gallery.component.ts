@@ -2,6 +2,8 @@ import { Component, OnInit, OnChanges, Input } from '@angular/core';
 
 import { ImageServiceService } from './../shared/image-service.service';
 
+import {MaterializeAction} from 'angular2-materialize';
+
 @Component({
   selector: 'app-gallery',
   templateUrl: './gallery.component.html',
@@ -22,5 +24,6 @@ export class GalleryComponent implements OnInit, OnChanges{
     this.visibleImages = this.imageService.getImages();
     
   }
+  
 
 }

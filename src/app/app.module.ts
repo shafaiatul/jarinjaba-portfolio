@@ -6,6 +6,8 @@ import { RouterModule }   from '@angular/router';
 
 import { MaterializeModule } from "angular2-materialize";
 
+import { MasonryModule } from 'angular2-masonry';
+
 // Components
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -30,6 +32,7 @@ import { appRoutes } from './../routes';
     FormsModule,
     HttpModule,
     MaterializeModule,
+    MasonryModule,
     RouterModule.forRoot(appRoutes)
     
     

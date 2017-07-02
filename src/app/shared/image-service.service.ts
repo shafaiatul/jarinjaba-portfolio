@@ -216,5 +216,71 @@ const Images = [
     "clientImageUrl": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/profile/photos/941834/original/22095_378891295539444_2068726645_n.jpg",
     "clientWorkUrl": "assets/img/versatile/S-C-INC.jpg",
     "clientComment": "Outstanding Experience!"
+  },
+  { 
+    "id": 29,
+    "category": "versatile",
+    "clientName": "lightofourbeing",
+    "clientImageUrl": "assets/img/client.png",
+    "clientWorkUrl": "assets/img/versatile/live-consciously.png",
+    "clientComment": "Outstanding Experience!"
+  },
+  { 
+    "id": 30,
+    "category": "versatile",
+    "clientName": "ishaq4040",
+    "clientImageUrl": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/profile/photos/8095922/original/resizedimage.php.jpg",
+    "clientWorkUrl": "assets/img/versatile/tax-lady-2.png",
+    "clientComment": "She's very good!!!"
+  },
+  { 
+    "id": 31,
+    "category": "versatile",
+    "clientName": "jeesan485",
+    "clientImageUrl": "assets/img/client.png",
+    "clientWorkUrl": "assets/img/versatile/medaid.jpg",
+    "clientComment": "Fast and friendly service. Will do business again."
+  },{ 
+    "id": 32,
+    "category": "flat",
+    "clientName": "tiagonoelsouza",
+    "clientImageUrl": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/profile/photos/62128407/original/1490842102475_facebook20170330-25954-12m7r6n.jpg",
+    "clientWorkUrl": "assets/img/flat/wee.jpg",
+    "clientComment": "Reviews and Comments are missing"
+  },{ 
+    "id": 33,
+    "category": "flat",
+    "clientName": "kevinhoff",
+    "clientImageUrl": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/profile/photos/63881614/original/photo.jpg",
+    "clientWorkUrl": "assets/img/flat/blackversion.png",
+    "clientComment": "A very good experience. ***** FIVE STARS ***** I would have no issue working with this designer again. I bet I will"
+  },{ 
+    "id": 34,
+    "category": "flat",
+    "clientName": "tcndahouse",
+    "clientImageUrl": "assets/img/client.png",
+    "clientWorkUrl": "assets/img/flat/customer-interactions-IT-solutions.png",
+    "clientComment": "The Best Service I have ever received from Fiverr. This Designer is very quick and responsive. She answers all my question very clearly in the Chat. She not only does her work flawlessly but also deal with the Customer very professionally. Great Experience. I would love to do business with in Future for Sure. Thanks Again!!!"
+  },{ 
+    "id": 35,
+    "category": "flat",
+    "clientName": "zionjr",
+    "clientImageUrl": "assets/img/client.png",
+    "clientWorkUrl": "assets/img/flat/se-tech.jpg",
+    "clientComment": "Outstanding Experience!"
+  },{ 
+    "id": 36,
+    "category": "flat",
+    "clientName": "aydanaydan",
+    "clientImageUrl": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/e777d7c1adf177bdae57cceb325a76f7-1498083139499/viber image.jpeg",
+    "clientWorkUrl": "assets/img/flat/aa1.png",
+    "clientComment": "LOVED IT!"
+  },{ 
+    "id": 37,
+    "category": "flat",
+    "clientName": "aydanaydan",
+    "clientImageUrl": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/e777d7c1adf177bdae57cceb325a76f7-1498083139499/viber image.jpeg",
+    "clientWorkUrl": "assets/img/flat/aa2.png",
+    "clientComment": "LOVED IT!"
   }
 ]

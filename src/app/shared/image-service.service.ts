@@ -224,14 +224,13 @@ const Images = [
     "clientImageUrl": "assets/img/client.png",
     "clientWorkUrl": "assets/img/versatile/live-consciously.png",
     "clientComment": "Outstanding Experience!"
-  },
-  { 
+  },{ 
     "id": 30,
-    "category": "versatile",
-    "clientName": "ishaq4040",
-    "clientImageUrl": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/profile/photos/8095922/original/resizedimage.php.jpg",
-    "clientWorkUrl": "assets/img/versatile/tax-lady-2.png",
-    "clientComment": "She's very good!!!"
+    "category": "flat",
+    "clientName": "aydanaydan",
+    "clientImageUrl": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/e777d7c1adf177bdae57cceb325a76f7-1498083139499/viber image.jpeg",
+    "clientWorkUrl": "assets/img/flat/aa2.png",
+    "clientComment": "LOVED IT!"
   },
   { 
     "id": 31,
@@ -275,12 +274,13 @@ const Images = [
     "clientImageUrl": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/e777d7c1adf177bdae57cceb325a76f7-1498083139499/viber image.jpeg",
     "clientWorkUrl": "assets/img/flat/aa1.png",
     "clientComment": "LOVED IT!"
-  },{ 
+  },
+  { 
     "id": 37,
-    "category": "flat",
-    "clientName": "aydanaydan",
-    "clientImageUrl": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/e777d7c1adf177bdae57cceb325a76f7-1498083139499/viber image.jpeg",
-    "clientWorkUrl": "assets/img/flat/aa2.png",
-    "clientComment": "LOVED IT!"
-  }
+    "category": "versatile",
+    "clientName": "ishaq4040",
+    "clientImageUrl": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/profile/photos/8095922/original/resizedimage.php.jpg",
+    "clientWorkUrl": "assets/img/versatile/tax-lady-2.png",
+    "clientComment": "She's very good!!!"
+  },
 ]
